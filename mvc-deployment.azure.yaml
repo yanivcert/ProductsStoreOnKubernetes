@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: mvc
-        image: houssemdocker/products-store-mvc:v2.#{Build.BuildId}#
+        image: p0020742.azurecr.io/houssemdocker/products-store-mvc:v2.#{Build.BuildId}#
         ports:
         - containerPort: 80
         resources:
